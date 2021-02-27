@@ -1,0 +1,13 @@
+app:
+  message: Message has been sent successfully...
+spring:
+  rabbitmq:
+    host: localhost
+    port: 15672
+    username: guest
+    password: guest
+    exchange: user.exchange
+    queue: user.queue
+    routingkey: user.routingkey 
+server:
+  port: 9091 
